@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.foos.foosd</string>
+
+  <key>Program</key>
+  <string>/Users/ahj/bin/growl_foos.sh</string>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>StandardErrorPath</key>
+  <string>/tmp/foosd.err</string>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/foosd.out</string>
+
+  <key>StartInterval</key>
+  <integer>60</integer>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/Users/ahj/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin</string>
+  </dict>
+</dict>
+</plist>
